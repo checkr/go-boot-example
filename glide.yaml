@@ -1,0 +1,9 @@
+package: github.com/checkr/go-boot-example
+import:
+- package: github.com/mitchellh/go-homedir
+- package: github.com/spf13/cobra
+- package: github.com/spf13/viper
+- package: github.com/ant0ine/go-json-rest
+  version: ^3.3.2
+  subpackages:
+  - rest
